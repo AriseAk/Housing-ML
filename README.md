@@ -2,32 +2,6 @@
 # California Housing Price Prediction 🏡
 
 This project is a complete **end-to-end machine learning pipeline** to predict housing prices in California. 
----
-
-## 📁 Folder Structure
-
-```
-
-HOUSING-ML/
-├── datasets/                        # Raw dataset (.tgz and extracted folder)
-│   ├── housing/                     # Extracted CSV files
-│   └── housing.tgz                  # Compressed dataset archive
-│
-├── images/
-│   └── end_to_end_project/          # All plots and visualizations
-│       ├── age_similarity_plot.png
-│       ├── attribute_histogram_plots.png
-│       ├── housing_prices_scatterplot.png
-│       ├── long_tail_plot.png
-│       └── ...                      # (more figures)
-│
-├── housing.ipynb                   # Main notebook with complete pipeline
-├── new.ipynb                       # Additional/experimental notebook
-├── image.jpg                       # Preview image (optional)
-└── README.md                       # Project documentation
-
-
-```
 
 ---
 
