@@ -9,32 +9,23 @@ This project is a complete **end-to-end machine learning pipeline** to predict h
 ```
 
 HOUSING-ML/
-
-├── datasets/  # Raw dataset (.tgz and extracted folder)
-
-│   ├── housing/
-
-│   └── housing.tgz
-
+├── datasets/                        # Raw dataset (.tgz and extracted folder)
+│   ├── housing/                     # Extracted CSV files
+│   └── housing.tgz                  # Compressed dataset archive
 │
-├── images/end\_to\_end\_project/        # All plots and visualizations
-
-│   ├── age\_similarity\_plot.png
-
-│   ├── long\_tail\_plot.png
-
-│   ├── scatter\_plot.png
-
-│   └── ...
-
+├── images/
+│   └── end_to_end_project/          # All plots and visualizations
+│       ├── age_similarity_plot.png
+│       ├── attribute_histogram_plots.png
+│       ├── housing_prices_scatterplot.png
+│       ├── long_tail_plot.png
+│       └── ...                      # (more figures)
 │
-├── housing.ipynb                     # Main notebook with full pipeline
+├── housing.ipynb                   # Main notebook with complete pipeline
+├── new.ipynb                       # Additional/experimental notebook
+├── image.jpg                       # Preview image (optional)
+└── README.md                       # Project documentation
 
-├── new\.ipynb                         # Additional or experimental notebook
-
-├── image.jpg                         # (Optional) preview image
-
-├── README.md                         # This file
 
 ```
 
